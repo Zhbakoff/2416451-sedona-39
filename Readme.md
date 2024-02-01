@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Сергей Жбаков](https://up.htmlacademy.ru/htmlcss/39/user/2416451).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
