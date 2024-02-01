@@ -2,6 +2,7 @@
 
 * Студент: [Сергей Жбаков](https://up.htmlacademy.ru/htmlcss/39/user/2416451).
 * Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
+* Сайт: [Мой проект Седона](https://zhbakoff.github.io/2416451-sedona-39/)
 
 ---
 
