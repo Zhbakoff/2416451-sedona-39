@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог отелей в Седоне</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -38,7 +39,8 @@
       </nav>
     </header>
     <main class="main-inner">
-      <h1>Гостиницы Седоны</h1>
+      <h1 class="main-inner-logo">Гостиницы Седоны</h1>
+      <img src="images/catalog/filter-1.jpg" alt="размытое фото каньона" width="1200" height="412">
       <div>
       <a class="navigation-logo">
         <img class="main-inner-house" src="#" alt="Иконка маленького домика">
@@ -47,7 +49,7 @@
       <p class="main-inner-item">Гостиницы</p>
     </div>
     <section class="infrastructure">
-      <p class="infrastructure-item">Инфраструктура:</p>
+      <p class="filter-name">Инфраструктура:</p>
         <ul>
         <li class="infrastructure-list">
           <input type="checkbox" name="pool" id="pool-field" checked>
@@ -64,7 +66,7 @@
       </ul>
     </section>
     <section class="housing">
-      <p class="housing-item">Тип жилья</p>
+      <p class="filter-name">Тип жилья</p>
       <ul>
         <li class="housing-list">
         <label>
@@ -87,7 +89,7 @@
       </ul>
     </section>
     <section class="pricing">
-      <p class="pricing-item">Стоимость, ₽:</p>
+      <p class="filter-name">Стоимость, ₽:</p>
       <form class="pricing-form" action="https://echo.htmlacademy.ru/" method="post">
         <label for="pricing-value-min"></label>
         <input type="text" name="ricing-value-min" id="pricing-value-min" placeholder="0">

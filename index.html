@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Седона - город в Аризоне</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -42,12 +43,15 @@
     <main class="main-index">
       <section class="hero">
         <h1 class="visually-hidden">Седона город в Аризоне</h1>
-        <img class="hero-img" src="images/index-background.jpeg" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!" width="1200" height="485">
+        <img class="hero-img" src="images/index-background.jpg" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!" width="1200" height="485">
+        <img class="hero-logo-1" src="images/hero-logo-1.svg" alt="welcome">
+        <img class="hero-logo-2" src="images/hero-logo-2.svg" alt="to the gorgeous">
+        <img class="hero-logo-3" src="images/hero-logo-3.svg" alt="sedona because the grand canyon sucks">
       </section>
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
         <p class="specification">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
-        <p class="specification">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон</p>
+        <p class="specification-item">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон</p>
         <ul>
         <li class="advantages-list">
           <h3 class="advantages-title">Настоящий городок</h3>
@@ -81,18 +85,18 @@
         <h2 class="visually-hidden">Сервис</h2>
         <ul>
           <li class="services-item">
-            <h3 class="services-title">Жильё</h3>
-            <p class="services-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            <h3 class="services-title-item">Жильё</h3>
+            <p class="services-description-item">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             <img src="images/house.svg" alt="иконка домика" width="75" height="72">
           </li>
           <li class="services-item">
-            <h3 class="services-title">Еда</h3>
-            <p class="services-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+            <h3 class="services-title-item">Еда</h3>
+            <p class="services-description-item">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
             <img src="images/food.svg" alt="Иконка бургера" width="74" height="70">
           </li>
           <li class="services-item">
-            <h3 class="services-title">Сувениры</h3>
-            <p class="services-description">Не только китайского,  но и настоящего местного производства!</p>
+            <h3 class="services-title-item">Сувениры</h3>
+            <p class="services-description-item">Не только китайского,  но и настоящего местного производства!</p>
             <img src="images/present.svg" alt="иконка подарка" width="64" height="76">
           </li>
         </ul>
@@ -102,10 +106,11 @@
         <h3 class="order-title">Заинтересовались?</h3>
         <p class="order-item">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
       </section>
+      <a class="order-button" href="#">Поиск гостиницы в Седоне</a>
       <section class="appointment">
         <h2 class="appointment-title">Подпишитесь на рассылку</h2>
         <p class="appointment-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <img class="appointment-photo" src="#" alt="Размытое фото каньона">
+        <img class="appointment-photo" src="images/subscribe.jpg" alt="Размытое фото каньона" width="1200" height="414.86">
         <form class="appointment-form" method="post" action="https://echo.htmlacademy.ru/">
           <label for="appointment-mail" class="visually-hidden">e-mail</label>
           <input type="text" id="appointment-mail" name="appointment-mail" placeholder="Ваш e-mail">
@@ -115,7 +120,7 @@
     </main>
     <footer class="page-footer">
       <h2 class="visually-hidden">Контакты</h2>
-      <a class="img-link">
+      <a class="image-link">
         <img class="page-footer-logo" src="images/academy-logo.svg" alt="Логотип HTML-Academy" width="114.9" height="32.9">
       </a>
       <address class="footer-contact-address">

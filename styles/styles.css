@@ -16,8 +16,8 @@
 
 body{
   font-family: "PT Sans", sans-serif;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 21px;
   background-color: #ffffff;
   color: #000000;
 }
@@ -28,9 +28,8 @@ body{
 }
 
 .navigation-link{
-  font-family: "PT Sans", sans-serif;
-  line-height: 24px;
   font-weight: 700;
+  line-height: 24px;
   color: #000000;
   text-decoration: none;
   text-align: center;
@@ -40,16 +39,12 @@ body{
 .header-button{
   line-height: 20px;
   font-size: 16px;
-  font-weight: 700;
   color: #b902b9;
   text-align: center;
   text-transform: uppercase;
 }
 
 .specification{
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
@@ -57,18 +52,12 @@ body{
 }
 
 .specification-item{
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
 }
 
 .advantages-title{
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
@@ -76,18 +65,12 @@ body{
 }
 
 .advantages-description{
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
 }
 
 .services-title{
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
@@ -95,9 +78,6 @@ body{
 }
 
 .services-description{
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -105,9 +85,6 @@ body{
 }
 
  .services-title-item{
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
@@ -115,9 +92,6 @@ body{
 }
 
 .services-description-item{
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
@@ -125,9 +99,6 @@ body{
 }
 
 .order-title{
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
@@ -135,9 +106,6 @@ body{
 }
 
 .order-item{
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -145,58 +113,193 @@ body{
 }
 
 .order-button{
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 36px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #dd06b9;
+  font-size: 20px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #dd06b9;
 }
 
 .appointment-title{
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 36px;
-text-transform: uppercase;
-color: #b902b9;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #b902b9;
 }
 
 .appointment-description{
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 26px;
-text-align: center;
-color: #b902b9;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #b902b9;
 }
 
 .appointment-button{
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 36px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #b902b9;
+  font-size: 20px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #b902b9;
 }
 
 .footer-contact-address-phone{
-  font-family: 'PT Sans';
   font-style: normal;
-  font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+}
+
+.main-inner-logo{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #a7006f;
+}
+
+.main-inner-item{
+font-size: 16px;
+line-height: 21px;
+color: #a7006f;
+}
+
+.filter-name{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #a7006f;
+}
+
+.housing-list{
+  font-size: 18px;
+  line-height: 23px;
+  color: #a7006f;
+}
+
+.infrastructure-list{
+  font-size: 18px;
+  line-height: 23px;
+  color: #a7006f;
+}
+
+.pricing-form{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.pricing-button{
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #a7006f;
+}
+
+.catalog-title{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  }
+
+.catalog-select{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.catalog-card-title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.card-description{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.card-price{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  color: #333333;
+}
+
+.more-button{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #a7006f;
+}
+
+.favourite-card{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #a7006f;
+}
+
+.card-rating{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.subscribe-title{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.subscribe-description{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+
+.subscribe-button{
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #a7006f;
 }
