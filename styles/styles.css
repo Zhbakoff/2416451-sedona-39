@@ -14,12 +14,24 @@
   font-display:  swap;
 }
 
+div-1 {
+  background-color: #ffffff;
+  height: 1280px;
+  width: 3557.86px;
+  }
+
 body{
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 21px;
-  background-color: #ffffff;
+  background-color: #F2F2F2;
   color: #000000;
+}
+
+.hero{
+  width: 1200px;
+  height: 485px;
+  background-image: url("images/index-background.jpg");
 }
 
 .page-header{
@@ -176,13 +188,8 @@ color: #a7006f;
   color: #a7006f;
 }
 
-.housing-list{
-  font-size: 18px;
-  line-height: 23px;
-  color: #a7006f;
-}
-
-.infrastructure-list{
+.form-group-title{
+  font-weight: 700;
   font-size: 18px;
   line-height: 23px;
   color: #a7006f;
@@ -217,6 +224,7 @@ color: #a7006f;
   }
 
 .catalog-select{
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
