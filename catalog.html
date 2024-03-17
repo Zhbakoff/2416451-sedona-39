@@ -5,8 +5,8 @@
     <title>Каталог отелей в Седоне</title>
     <link rel="stylesheet" href="styles/styles.css">
   </head>
-  <div>
   <body>
+    <div class="container">
     <header class="page-header">
       <nav class="navigation">
         <ul class="navigation-list">
@@ -41,67 +41,72 @@
     </header>
     <main class="main-inner">
       <h1 class="main-inner-logo">Гостиницы Седоны</h1>
-      <img src="images/catalog/filter-1.jpg" alt="размытое фото каньона" width="1200" height="412">
       <div>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link">Каталог</a>
+          </li>
+        </ul>
       <a class="navigation-logo">
         <img class="main-inner-house" src="#" alt="Иконка маленького домика">
       </a>
       <img class="main-inner-cursor" src="#" alt="Стрелочка вправо">
       <p class="main-inner-item">Гостиницы</p>
       </div>
-    <fieldset class="infrastructure form-group">
+    <form class="pricing-form" action="https://echo.htmlacademy.ru/" method="post">
+      <fieldset class="infrastructure form-group">
       <legend class="form-group-title">Инфраструктура:</legend>
-        <ul>
-        <li class="infrastructure-list">
+        <ul class="infrastructure-list">
+        <li class="infrastructure-item">
           <input type="checkbox" name="pool" id="pool-field" checked>
           <label for="pool-field">Бассейн</label>
         </li>
-        <li class="infrastructure-list">
+        <li class="infrastructure-item">
           <input type="checkbox" name="parking" id="parking-field" checked>
           <label for="parking-field">Парковка</label>
         </li>
-        <li class="infrastructure-list">
+        <li class="infrastructure-item">
           <input type="checkbox" name="Wi-FI" id="Wi-Fi-field">
           <label for="Wi-Fi-field">Wi-Fi</label>
         </li>
       </ul>
-    </fieldset>
-    <fieldset class="housing form-group">
+      </fieldset>
+      <fieldset class="housing form-group">
       <legend class="form-group-title">Тип жилья</legend>
-      <ul>
-        <li class="housing-list">
+      <ul class="housing-list">
+        <li class="housing-item">
         <label>
           <input type="radio" name="hotel" value="hotel" checked>
           Гостиница
         </label>
         </li>
-        <li class="housing-list">
+        <li class="housing-item">
           <label>
             <input type="radio" name="motel" value="motel-field">
             Мотель
           </label>
         </li>
-        <li class="housing-list">
+        <li class="housing-item">
           <label>
             <input type="radio" name="apartments" value="apartments-field">
             Апартаменты
           </label>
         </li>
       </ul>
-    </fieldset>
-    <fieldset class="pricing form-group">
-      <legend class="form-group-title">Стоимость, ₽:</legend>
-      <form class="pricing-form" action="https://echo.htmlacademy.ru/" method="post">
-        <label for="pricing-value-min"></label>
-        <input type="text" name="ricing-value-min" id="pricing-value-min" placeholder="0">
-      </form>
-      <form class="pricing-form" action="https://echo.htmlacademy.ru/" method="post">
-        <label for="pricing-value-max"></label>
-        <input type="text" name="ricing-value-max" id="pricing-value-max" placeholder="9000">
-        <button class="pricing-button" type="submit">применить</button>
-        <button class="pricing-button" type="reset">сбросить</button>
-      </form>
-    </fieldset>
+      </fieldset>
+      <fieldset class="pricing form-group">
+        <legend class="form-group-title">Стоимость, ₽:</legend>
+          <label for="pricing-value-min"></label>
+          <input type="text" name="ricing-value-min" id="pricing-value-min" placeholder="0">
+          <label for="pricing-value-max"></label>
+          <input type="text" name="ricing-value-max" id="pricing-value-max" placeholder="9000">
+          <button class="pricing-button" type="submit">применить</button>
+          <button class="pricing-button" type="reset">сбросить</button>
+      </fieldset>
+    </form>
     <section class="catalog">
       <h2 class="catalog-title">Найдено гостиниц: 38</h2>
       <select class="catalog-select">
@@ -116,7 +121,7 @@
       <a class="catalog-view" href="#" >
         <span class="visually-hidden">Списком</span>
       </a>
-      <ul>
+      <ul class="catalog-list">
         <li class="catalog-item">
           <a class="catalog-card-link" href="" tabindex="-1">
             <img class="catalog-card-img" src="images/catalog/hotel-1.jpg" alt="Пролом в пещере на фоне звездного неба" width="300" height="212">
@@ -126,8 +131,9 @@
           <p class="card-price">От 4000 ₽</p>
           <a class="more-button" href="#">подробнее</a>
           <button class="favourite-card" type="button">в избранное</button>
-          <p class="four-stars">
+          <p class="stars">
             <span class="visually-hidden">Отель 4 звезды</span>
+            <img src="images/catalog/4-stars.svg" alt="4 звезды" width="140" height="37">
           </p>
           <p class="card-rating">Рейтинг: 8,5</p>
         </li>
@@ -140,8 +146,9 @@
           <p class="card-price">От 5000 ₽</p>
           <a class="more-button" href="#">подробнее</a>
           <button class="favourite-card favourite-card-selected" type="button">в избранном</button>
-          <p class="four-stars">
+          <p class="stars">
             <span class="visually-hidden">Отель 4 звезды</span>
+            <img src="images/catalog/4-stars.svg" alt="4 звезды" width="140" height="37">
           </p>
           <p class="card-rating">Рейтинг: 9,2</p>
         </li>
@@ -154,8 +161,9 @@
           <p class="card-price">От 2500 ₽</p>
           <a class="more-button" href="#">подробнее</a>
           <button class="favourite-card" type="button">в избранное</button>
-          <p class="three-stars">
+          <p class="stars">
             <span class="visually-hidden">Отель 3 звезды</span>
+            <img src="images/catalog/3-stars.svg" alt="3 звезды" width="140" height="37">
           </p>
           <p class="card-rating">Рейтинг: 6,9</p>
         </li>
@@ -168,8 +176,9 @@
           <p class="card-price">От 1500 ₽</p>
           <a class="more-button" href="#">подробнее</a>
           <button class="favourite-card" type="button">в избранное</button>
-          <p class="two-stars">
+          <p class="stars">
             <span class="visually-hidden">Отель 2 звезды</span>
+            <img src="images/catalog/2-stars.svg" alt="2 звезды" width="140" height="37">
           </p>
           <p class="card-rating">Рейтинг: 5,0</p>
         </li>
@@ -238,6 +247,6 @@
         </ul>
       </section>
     </footer>
+    <div>
   </body>
-</div>
 </html>

@@ -16,7 +16,7 @@
 
 .container {
   background-color: #ffffff;
-  height: 3557.86px;
+  height: 3558px;
   width: 1280px;
   margin: 0 auto;
   }
@@ -30,6 +30,18 @@ body{
   margin: 0;
 }
 
+.navigation{
+  display: block;
+  flex-direction: row;
+}
+.navigation-list{
+  list-style: none;
+}
+
+.navigation-user{
+  list-style: none;
+}
+
 .hero{
   width: 1200px;
   min-height: 485px;
@@ -41,6 +53,11 @@ body{
 .page-header{
   background-color: #ffffff;
   color: #000000;
+  display: flex;
+  width: 1200px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 0 70px;
 }
 
 .navigation-link{
@@ -103,6 +120,10 @@ body{
   text-align: center;
 }
 
+.services-item{
+  list-style: none;
+}
+
 .services-title{
   font-size: 30px;
   line-height: 36px;
@@ -155,6 +176,10 @@ body{
   color: #dd06b9;
 }
 
+.footer-social-list{
+  list-style: none;
+}
+
 .appointment{
   background-image: url(../images/subscribe.jpg);
   width: 1200px;
@@ -198,8 +223,6 @@ body{
 .main-inner{
   background-image: url(../images/catalog/filter-1.jpg);
   width: 1200px;
-  height: 412px;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
