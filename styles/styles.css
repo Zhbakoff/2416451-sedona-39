@@ -162,10 +162,9 @@ body{
 }
 
 .advantages-item-2{
-  background: rgba(131, 179, 211, 0.2);
+  background: rgba(131, 179, 211, 0.12);
 }
 .advantages-item-3{
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: rgba(131, 179, 211, 0.2);
 }
 .advantages-item-4{
@@ -236,11 +235,20 @@ body{
   min-height: 385px;
 }
 
+.services-item-1{
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.services-item-3{
+  background: rgba(131, 179, 211, 0.12);
+}
+
 .order-title{
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+  margin: 96px auto 20px;
 }
 
 .order-item{
@@ -254,35 +262,39 @@ body{
   font-size: 20px;
   line-height: 36px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: center;
+  margin: 54px auto 96px;
   text-transform: uppercase;
   color: #dd06b9;
 }
 
 .appointment{
-  background-image: url(../images/subscribe.jpg);
+  background-image: url(../images/subscribe.png);
   width: 1200px;
-  height: 415px;
+  min-height: 415px;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 90px 0 90px;
+  box-sizing: border-box;
 }
 
 .appointment-title{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  color: #b902b9;
+  color: #ffffff;
+  margin: 0 auto 20px;
+  text-align: center;
 }
 
 .appointment-description{
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  color: #b902b9;
+  color: #ffffff;
+  margin: 0 auto;
+  max-width: 475px;
 }
 
 .appointment-button{
@@ -295,11 +307,19 @@ body{
   color: #b902b9;
 }
 
+.appointment-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 54px auto;
+}
+
 .page-footer{
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   min-height: 120px;
+  padding: 0 70px;
 }
 
 .footer-social-list{
@@ -307,13 +327,9 @@ body{
   justify-content: flex-start;
   align-items: center;
   gap: 24px;
-  margin-left: auto;
 }
 
 .footer-contact-address{
-  display: flex;
-  align-items: center;
-  margin: auto;
 }
 
 .footer-contact-address-phone{
@@ -326,10 +342,6 @@ body{
 }
 
 .image-link{
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .main-inner{
@@ -342,13 +354,24 @@ body{
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
-  color: #a7006f;
+  color: #ffffff;
+  margin: 35px 565px 8px 70px;
 }
 
 .main-inner-item{
 font-size: 16px;
 line-height: 21px;
-color: #a7006f;
+color: #ffffff;
+}
+
+.breadcrumbs{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pricing-form{
+  display: flex;
 }
 
 .filter-name{
@@ -356,7 +379,7 @@ color: #a7006f;
   font-size: 20px;
   line-height: 24px;
   text-transform: capitalize;
-  color: #a7006f;
+  color: #ffffff;
 }
 
 .form-group-title{
@@ -375,6 +398,10 @@ color: #a7006f;
   text-align: center;
   text-transform: uppercase;
   color: #a7006f;
+}
+
+.catalog{
+  margin: 0 auto;
 }
 
 .catalog-title{
@@ -399,6 +426,18 @@ color: #a7006f;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
+}
+
+.catalog-list{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 70px;
+  gap: 40px;
+}
+
+.catalog-item{
+  min-height: 438px;
 }
 
 .stars{
@@ -452,12 +491,19 @@ color: #a7006f;
   color: #333333;
 }
 
+.pagination-list{
+  display: flex;
+  align-items: flex-start;
+  margin: 80px 70px 60px;
+}
+
 .subscribe-title{
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
+  text-align: center;
 }
 
 .subscribe-description{
@@ -466,6 +512,8 @@ color: #a7006f;
   line-height: 26px;
   text-align: center;
   color: #333333;
+  margin: 0 auto;
+  max-width: 475px;
 }
 
 .subscribe-button{
